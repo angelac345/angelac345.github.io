@@ -1,1 +1,48 @@
-"HELLO WORLD"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Vertical Blocks with Scrollpane</title>
+</head>
+<body>
+  <!-- Left section -->
+  <div class="left-section">
+    <div class="left-block" id="name-div">
+        <p id="name-text">Angela Chao</p>
+        <p id="intro-text"><span id="intro-title"> Introduction: </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel tortor arcu. Duis interdum odio vitae urna fermentum, id rhoncus enim ullamcorper. Curabitur vitae quam id orci commodo tristique.  </p>
+    </div>
+    <div class="left-block" id="timeline-div">
+        <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Event Title 1</h3>
+                <p>Description of the event goes here.</p>
+                <span class="date">April 21, 2024</span>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Event Title 2</h3>
+                <p>Description of another event goes here.</p>
+                <span class="date">April 22, 2024</span>
+              </div>
+            </div>
+          
+            <!-- Add more timeline items as needed -->
+        </div>
+    </div>
+  </div>
+
+  <!-- Right scrollpane -->
+  <div class="scrollpane">
+    <!-- Content to be scrolled -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel tortor arcu. Duis interdum odio vitae urna fermentum, id rhoncus enim ullamcorper. Curabitur vitae quam id orci commodo tristique. Nam nec ipsum vel turpis malesuada gravida. Ut consequat pulvinar eros, a tristique purus bibendum ut. Sed vehicula justo a dui pellentesque, at vestibulum justo aliquet. Integer at dictum libero, ac sodales arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque faucibus mauris vel odio accumsan, non auctor sapien fringilla. Curabitur pretium eget ligula et interdum. Aenean vehicula metus eget dolor commodo, a elementum arcu auctor. Proin auctor dui ut tincidunt blandit. Nunc at mauris sit amet quam vehicula malesuada. Vestibulum convallis risus id ligula dictum bibendum.</p>
+    <p>Mauris nec ligula vitae quam lobortis efficitur ac vel ligula. Curabitur nec ultricies nisi. In hac habitasse platea dictumst. Phasellus non arcu a mi gravida lacinia. Donec vehicula odio a justo varius sodales. Nam in lectus in mi pellentesque malesuada. Sed quis tortor hendrerit, fermentum nisl non, tincidunt purus. Integer sodales sapien et odio gravida, eget sollicitudin justo tincidunt. Maecenas ut tellus fermentum, interdum nisi vitae, laoreet felis. Nullam auctor, nulla nec aliquam laoreet, purus mi luctus lectus, nec accumsan libero risus sed velit. Maecenas sit amet tellus sed urna ullamcorper cursus non eget arcu. Sed efficitur tempor risus, eget tempor nisl commodo vel. Vivamus at metus sit amet lectus maximus varius. Nam auctor leo vel nulla tristique, sit amet placerat nulla suscipit. Sed auctor aliquet ante ut feugiat. Mauris ac sodales elit. Pellentesque sed lorem arcu.</p>
+  </div>
+</body>
+</html>

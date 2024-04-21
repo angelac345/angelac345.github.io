@@ -1,0 +1,99 @@
+body {
+    background-color: #0b5394;
+    color: white;
+}
+/* Style for left section */
+.left-section {
+    float: left;
+    width: 28%; /* Adjust to 30% of viewport width */
+    height: 100vh; /* Full height of viewport */
+    background-color: #0b5394;
+}
+
+/* Style for left blocks */
+.left-block {
+    width: 100%; 
+    height: 48vh; 
+    /* background-color: lightblue; */
+    margin-bottom: 10px;
+}
+
+#name-div {
+    height: 30%; 
+    border: 1px solid white; 
+    text-align: center;
+}
+
+#name-text {
+    font-size: 250%;   
+    height: auto;
+}
+
+#intro-text {
+    overflow-y: auto; 
+    text-align: left; 
+    font-size: 100%; 
+    height: 45%; 
+    margin: 5px;
+}
+
+#intro-title {
+    font-size: 150%;
+    
+}
+
+
+#timeline-div {
+    overflow-y: auto;
+    height: 69%; 
+    border: 1px solid white; 
+
+}
+.timeline {
+    position: relative;
+}
+  
+.timeline-item {
+    position: relative;
+    padding-left: 50px; /* Adjust spacing between dot and content */
+    margin-bottom: 30px; /* Adjust vertical spacing between items */
+}
+  
+.timeline-dot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px; /* Adjust dot size */
+    height: 20px; /* Adjust dot size */
+    background-color: #007bff; /* Adjust dot color */
+    border-radius: 50%;
+}
+  
+.timeline-content {
+    margin-left: 30px; /* Adjust spacing between dot and content */
+}
+  
+.timeline-content h3 {
+    margin-top: 0;
+}
+  
+.date {
+    display: block;
+    font-style: italic;
+}
+  
+
+/* Style for scrollpane */
+.scrollpane {
+    overflow-y: auto; 
+    height: 15vh; 
+    width: 68%; 
+    float: right;
+    border: 1px solid black;
+    padding: 10px; 
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+
+}
