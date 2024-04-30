@@ -13,6 +13,11 @@ for (const exp_name of exp_name_lst) {
 }
 console.log(timeline_lst); 
 
+const timeline_dot_lst = []; 
+for (const exp_name of exp_name_lst) {
+    timeline_dot_lst.push(document.getElementById(exp_name + '-dot'));
+}
+
 const exp_item_lst = [] 
 for (const exp_name of exp_name_lst) {
     exp_item_lst.push(document.getElementById(exp_name + '-item'));
@@ -31,7 +36,14 @@ for (let i = 0; i < timeline_lst.length; i++) {
         scrollpane.scrollTop = rel_top;
 
         console.log(scrollpane.scrollTop);
-      };
+    };
+    
+    timeline_lst[i].addEventListener('mouseover', function() {
+        timeline_dot_lst[i].style.width = '40%';
+    });
+    timeline_lst[i].addEventListener('mouseout', function() {
+        timeline_dot_lst[i].style.width = '20%';
+    });
 }
 
 
