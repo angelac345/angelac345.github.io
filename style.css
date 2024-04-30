@@ -1,5 +1,5 @@
 body {
-    background-color: #0b5394;
+    background-color: #083d77;
     color: white;
 }
 /* Style for left section */
@@ -7,7 +7,7 @@ body {
     float: left;
     width: 28%; /* Adjust to 30% of viewport width */
     height: 100vh; /* Full height of viewport */
-    background-color: #0b5394;
+    background-color: #083d77;
 }
 
 /* Style for left blocks */
@@ -72,19 +72,33 @@ body {
     margin-bottom: 20px;
     margin-left: 5px;
     margin-right: 5%;
-    width: 20%; /* Adjust dot size */
-    height: 0; /* Adjust dot size */
-    background-color: white; /* Adjust dot color */
-    border: 1px solid white;
+    width: 25%; /* Adjust dot size */
+    height: 25px; /* Adjust dot size */
+    /* border: 1px solid white; */
 }
 
+.timeline-dot-top {
+    align-content: center;
+    border-bottom: 1px solid white;
+    text-align: center;
+    font-size: 10px; 
+}
+.timeline-dot-bot {
+    align-content: center;
+    text-align: center;
+    /* border-bottom: 1px solid white; */
+    font-size: 9px; 
+}
   
 .timeline-content {
     text-align: left; 
+    align-content: center;
     width: 50%;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-left: 5%; /* Adjust spacing between dot and content */
-    font-size: 11px;
+    font-size: 12px;
+    height: 20px;
+    /* border: 1px solid white; */
 }
   
 
@@ -111,7 +125,7 @@ body {
     padding-bottom: 3%;
     width: 99%; 
 
-    background-color: #cccccc; 
+    background-color: #EBEBD3; 
     color: black; 
 }
 
