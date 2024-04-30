@@ -1,6 +1,8 @@
 body {
     background-color: #083d77;
     color: white;
+    width: 900px;
+    margin: auto;
 }
 /* Style for left section */
 .left-section {
@@ -19,7 +21,7 @@ body {
 }
 
 #name-div {
-    height: 30%; 
+    height: 35%; 
     border: 1px solid white; 
     text-align: center;
 }
@@ -49,7 +51,7 @@ body {
 
 #timeline-div {
     overflow-y: auto;
-    height: 69%; 
+    height: 58%; 
     border: 1px solid white; 
 
 }
@@ -125,7 +127,7 @@ body {
     padding-bottom: 3%;
     width: 99%; 
 
-    background-color: #EBEBD3; 
+    background-color: #CCDBDC; 
     color: black; 
 }
 
